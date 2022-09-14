@@ -10,7 +10,7 @@ class App extends Component {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/account/:id" element={<Account />} />
+            <Route path="/account/:index" element={<Account />} />
           </Routes >
         </BrowserRouter>
 
